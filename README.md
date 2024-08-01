@@ -10,3 +10,34 @@ Trabajo en Ramas: Crear ramas, realizar cambios y commits3.
 Merge y Resolución de Conflictos: Enviar cambios, crear pull requests y resolver conflictos4.
 Colaboración y Pull Requests: Revisar y aprobar pull requests, actualizar el repositorio local.
 Materiales Necesarios: Computadora con acceso a internet, Git instalado, cuenta en GitHub, equipo de 3-4 estudiantes
+
+
+Comandos utilizados:
+
+git config --global user.name "Tu Nombre"
+
+git config --global user.email "tu.email@ejemplo.com"
+
+git clone [Link del grupo]
+
+mkdir <carpeta> #Creacion de carpetas del proyecto
+
+git add .
+
+git commit -m "Initial commit"
+
+git push origin main
+
+git checkout -b nombre_rama
+
+git checkout nombre_rama_para_cambiar_entre_ramas
+
+git push origin nombre_rama
+
+git checkout main
+
+git merge nombre_rama
+
+git push origin main
+
+git pull origin main
