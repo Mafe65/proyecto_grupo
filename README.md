@@ -41,3 +41,6 @@ git merge nombre_rama
 git push origin main
 
 git pull origin main
+
+#### LINK REPOSITORIO 
+https://github.com/Mafe65/proyecto_grupo.git
